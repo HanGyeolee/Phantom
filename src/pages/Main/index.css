@@ -1,0 +1,183 @@
+.imganime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.imganime>a{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    z-index: 2;
+}
+.imganime>a>h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+    transform: translateY(140%);
+    transition: 0.25s 0.125s ;
+}
+.imganime>a>p{
+    color: transparent;
+    text-align: center;
+    margin-bottom: 1rem;
+    transform: translateY(60%);
+    transition: 0.25s 0.125s ;
+}
+.imganime:hover>a>h2{
+    transform: translateY(0);
+    transition: 0.125s;
+}
+.imganime:hover>a>p{
+    color: white;
+    transform: translateY(0);
+    transition: 0.125s;
+}
+.imganime>div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: ease-in-out 0.5s;
+}
+.imganime:hover>div{
+    transform: scale(1.0625);
+}
+.imganime>div>img{
+    width: 100%;
+    height: 100%;
+}
+.imganime>div::after{
+    display: block;
+    content: " ";
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    transition: ease-in-out 0.125s;
+    z-index: 1;
+    background-image: url("../../svg/x.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.25;
+}
+.imganime>div.style1::before, .imganime>div.style2::before, 
+.imganime>div.style3::before, .imganime>div.style4::before,
+.imganime>div.style5::before, .imganime>div.style6::before{
+    display: block;
+    content: " ";
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    transition: ease-in-out 0.125s;
+    z-index: 1;
+}
+.imganime:hover>div.style1::before, .imganime:hover>div.style2::before, 
+.imganime:hover>div.style3::before, .imganime:hover>div.style4::before,
+.imganime:hover>div.style5::before, .imganime:hover>div.style6::before,
+.imganime:hover>div::after{
+    opacity: 0;
+}
+.imganime>div.style1::before{
+    background-color: #f2849e;
+}
+.imganime>div.style2::before{
+    background-color: #7ecaf6;
+}
+.imganime>div.style3::before{
+    background-color: #7bd0c1;
+}
+.imganime>div.style4::before{
+    background-color: #c75b9b;
+}
+.imganime>div.style5::before{
+    background-color: #ae85ca;
+}
+.imganime>div.style6::before{
+    background-color: #8499e7;
+}
+@media all and (min-width:1681px){
+    .imganime{
+        width: 25rem;
+        height: 25rem;
+        margin: 1rem 0rem;
+    }
+}
+@media all and (max-width:1680px){
+    .imganime{
+        width: 23rem;
+        height: 23rem;
+        margin: 0.25rem -0.5rem 0.25rem 0rem;
+    }
+}
+@media all and (max-width:1440px){
+    .imganime{
+        width: 21rem;
+        height: 21rem;
+        margin: 0.25rem -0.5rem 0.25rem 0rem;
+    }
+}
+@media all and (max-width:1280px){
+    .imganime{
+        width: 19.5rem;
+        height: 19.5rem;
+        margin: 0.125rem -1rem 0.125rem 0rem;
+    }
+}
+@media all and (max-width:1040px){
+    ul.horizontal.flex.fit>li{
+        flex: auto;
+        width: 30%;
+    }
+    .imganime{
+        width: 100%;
+        height: 28vw;
+        margin: 0.25rem -0.25rem 0.25rem 0rem;
+    }
+}
+@media all and (max-width:990px){
+    ul.horizontal.flex.fit>li{
+        flex: auto;
+        width: 45%;
+    }
+    .imganime{
+        width: 100%;
+        height: 42vw;
+        margin: 0.5rem -0.25rem 0.5rem 0rem;
+    }
+}
+@media all and (max-width:768px){
+    .imganime{
+        width: 100%;
+        height: 42vw;
+        margin: 0.5rem -0.25rem 0.5rem 0rem;
+    }
+}
+@media all and (max-width:552px){
+    .imganime{
+        width: 100%;
+        height: 82vw;
+        margin: 0.5rem -0.25rem 0.5rem 0rem;
+    }
+}
+@media all and (max-width:425px){
+    .imganime{
+        width: 100%;
+        height: 82vw;
+        margin: 0.5rem -0.25rem 0.5rem 0rem;
+    }
+}

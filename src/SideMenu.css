@@ -1,0 +1,135 @@
+aside{
+    position: absolute;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--main-color);
+    transform: translateX(100%);
+    transition: 0.5s;
+    z-index: 100;
+}
+aside>svg{
+    cursor: pointer;
+    position: absolute;
+    color: transparent;
+    visibility: hidden;
+    top: 0;
+    transform: rotateZ(90deg);
+    transition: ease-in 0.25s;
+} 
+aside.active>svg{
+    visibility:visible;
+    transform: rotateX(0deg);
+    transition: cubic-bezier(0.75, 0, 1, 1) 0.25s;
+    color: var(--main-color);
+}
+aside.active>svg:hover{
+    visibility:visible;
+    transform: rotateX(0deg);
+    color: var(--select-color);
+}
+aside.active{
+    transform: translateX(0%);
+}
+aside>div{
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100vw;
+    height: 100vh;
+    color: transparent;
+    visibility: hidden;
+    z-index: -1;
+    transition: 0.5s;
+}
+aside.active>div{
+    width: calc(100vw - 100%);
+    visibility:visible;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+aside h2{
+    color: white;
+}
+aside ul.alt{
+    padding: 0;
+}
+aside ul.alt:after{
+    border: 2px solid var(--main-color);
+}
+aside ul.alt li{
+    padding: 1.125rem 0rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.125);
+}
+aside ul.alt li a{
+    color: white;
+    line-height: 1.5;
+}
+aside ul.alt li a:hover{
+    color: var(--select-color);
+    line-height: 1.5;
+}
+
+@media all and (min-width:1680px){
+    aside{
+        width: 23rem;
+        padding: 3.5rem 3.125rem;
+    }
+    aside>svg{
+        padding: 3rem 3.5rem;
+        width: 2.75rem;
+        height: 2.75rem;
+        left:-9.75rem;
+    }
+}
+@media all and (min-width:1441px) and (max-width:1679px){
+    aside{
+        width: 20rem;
+        padding: 3.5rem 3.125rem;
+    }
+    aside>svg{
+        padding: 3rem 3.5rem;
+        width: 2.75rem;
+        height: 2.75rem;
+        left:-9.75rem;
+    }
+}
+@media all and (max-width:1440px){
+    aside{
+        width: 19.5rem;
+        padding: 3.5rem 3.125rem;
+    }
+    aside>svg{
+        padding: 3rem 3.5rem;
+        width: 2.25rem;
+        height: 2.25rem;
+        left:-9.25rem;
+    }
+}
+@media all and (max-width:1024px){
+    aside>svg{
+        padding: 2.5rem 3rem;
+        width: 2rem;
+        height: 2rem;
+        left:-7rem;
+    }
+}
+@media all and (max-width:768px){
+    aside{
+        width: 15.5rem;
+        padding: 3rem 3.125rem;
+    }
+}
+@media all and (max-width:425px){
+    aside{
+        width: 13rem;
+        padding: 2.5rem 1.5rem;
+    }
+    aside>svg{
+        padding: 1.25rem 1.75rem;
+        width: 1.5rem;
+        height: 1.5rem;
+        left:-4.5rem;
+    }
+}

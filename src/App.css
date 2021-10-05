@@ -1,0 +1,128 @@
+footer>section>article:first-child{
+  margin-right: 4rem;
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+.hamburger{
+  cursor: pointer;
+  position: absolute;
+  color: var(--main-color);
+  top: 0;
+  right: 0;
+  transition: 0.25s;
+}
+.hamburger:hover{
+  color : var(--select-color);
+}
+
+/*애니메이션 동작 축소*/
+@media (prefers-reduced-motion: no-preference) {
+}
+
+.App-header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: var(--main-color);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media all and (min-width:1441px){
+  .App-header {
+    padding-top: 12rem;
+  }
+  .App-logo {
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+  .hamburger{
+    padding: 3rem 3.5rem;
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+  .footer{
+    display: flex;
+    padding-top: 4rem;
+  }
+  .footer>*:first-child{
+    flex: 2;
+  }
+  .footer>*:last-child{
+    flex: 1;
+  }
+}
+@media all and (max-width:1440px){
+  .App-header {
+    padding-top: 10rem;
+  }
+  .App-logo {
+    width: 2rem;
+    height: 2rem;
+  }
+  .hamburger{
+    padding: 3rem 3.5rem;
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  .footer{
+    display: flex;
+    padding-top: 4rem;
+  }
+  .footer>*:first-child{
+    flex: 2;
+  }
+  .footer>*:last-child{
+    flex: 1;
+  }
+}
+@media all and (max-width:1024px){
+  .App-header {
+    padding-top: 8rem;
+  }
+  .hamburger{
+    padding: 2.5rem 3rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+@media all and (max-width:768px){
+  .App-header {
+    padding-top: 8rem;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 4rem;
+  }
+  .footer>*:first-child{
+    flex: 1;
+  }
+  .footer>*:last-child{
+    flex: 1;
+  }
+}
+@media all and (max-width:425px){
+  .hamburger{
+    padding: 1.25rem 1.75rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

@@ -1,0 +1,47 @@
+  .wrap{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .wrap>div{
+    padding-left: 1rem;
+  }
+  .wrap>div:first-child{
+    margin-left: -1rem;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media all and (min-width:1441px){
+    .wrap>*{
+      width: calc(50% - 1rem);
+    }
+    .wrap>*:first-child{
+      width: 50%;
+    }
+  }
+  @media all and (max-width:1440px){
+    .wrap>*{
+      width: calc(50% - 1rem);
+    }
+    .wrap>*:first-child {
+      width: 50%;
+    }
+  }
+  @media all and (max-width:768px){
+    .wrap>*{
+      width: 100%;
+      padding-left: 0rem;
+    }
+    .wrap>*:first-child{
+      width: 100%;
+      margin-left: 0rem;
+    }
+  }
