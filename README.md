@@ -40,10 +40,34 @@ function ImgAnime(props){
     );
 }
 ```
-지금 와서 [해당 스크립트](https://github.com/HanGyeolee/Phantom/blob/main/src/pages/Main/index.js)를 보고 있자면, 
+지금 와서 [해당 스크립트](https://github.com/HanGyeolee/Phantom/blob/main/src/pages/Main/index.js#L35)를 보고 있자면, 
 <ImgAnime/> 태그를 12번 그냥 복붙해놓은 것 보다. for문을 활용하여 화면을 구성하는 편이 조금 더 JSX 스러울 것이라 생각합니다.
 ## [Element](https://github.com/HanGyeolee/Phantom/tree/main/src/pages/Element)
+해당 페이지에서도 <Button/> function을 만들어서 안에 들어가는 이미지나 글자들을 훨씬 쉽게 접근하도록 하였습니다.
+``` javascript
+function Button(props){
+    return(
+      <button className={props.type}>
+        {props.children}
+        <a href={props.href}>
+          <p>{props.text}</p>
+        </a>
+      </button>
+    );
+}
+``` 
+``` javascript
+<Button type="small" href="" text="FIT + SMALL">
+    <svg>...<svg/>
+<Button/>
+```
+css에 button의 .small .default .large .primary 등의 클래스를 미리 작성해두어 함수를 사용하기 더 편하도록 만들었습니다.
+
+radiobutton 및 checkbox customizing 은 [이전 프로젝트](https://github.com/HanGyeolee/Editorial)에서 확인할 수 있습니다.
+
 ## [Generic](https://github.com/HanGyeolee/Phantom/tree/main/src/pages/Generic)
+Generic 페이지는 평범하게 게시글을 작성했을 때의 예시를 위한 페이지입니다.     
+정말 단순하게도 이미 Main.css 에 모든 태그의 형식을 지정해둔 후 라면 게시글 작성하듯이 시간이 채 걸리지 않을 것 입니다.
 # run.bat
 손쉽게 해당 프로젝트를 실행시킬 수 있도록 하기위해 작성된 배치파일.    
-~~해당 배치파일은 [React/NewProject.bat]()를 실행시키면 자동으로 생성된다.~~
+~~해당 배치파일은 [React/NewProject.bat]()를 실행시키면 자동으로 생성됩니다.~~
