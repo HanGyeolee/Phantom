@@ -71,3 +71,9 @@ Generic 페이지는 평범하게 게시글을 작성했을 때의 예시를 위
 # run.bat
 손쉽게 해당 프로젝트를 실행시킬 수 있도록 하기위해 작성된 배치파일.    
 해당 배치파일은 [React/Web Framework/NewProject.bat](https://github.com/HanGyeolee/React/tree/main/Web%20Framework)를 실행시키면 자동으로 생성됩니다.
+
+직접 run.bat를 만들고 싶다면
+``` text
+yarn start
+```
+메모장에 작성하여 .bat 확장자로 저장하면 됩니다.
