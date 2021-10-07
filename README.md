@@ -41,5 +41,5 @@ function ImgAnime(props){
 ## [Element](https://github.com/HanGyeolee/Phantom/tree/main/src/pages/Element)
 ## [Generic](https://github.com/HanGyeolee/Phantom/tree/main/src/pages/Generic)
 # run.bat
-손쉽게 해당 프로젝트를 실행시킬 수 있도록 하기위해 작성된 배치파일.
+손쉽게 해당 프로젝트를 실행시킬 수 있도록 하기위해 작성된 배치파일.    
 ~~해당 배치파일은 [React/NewProject.bat]()를 실행시키면 자동으로 생성된다.~~
