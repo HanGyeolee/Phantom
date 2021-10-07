@@ -63,9 +63,9 @@ function Button(props){
 ```
 css에 button의 .small .default .large .primary 등의 클래스를 미리 작성해두어 함수를 사용하기 더 편하도록 만들었습니다.
 
-radiobutton 및 checkbox customizing 은 [이전 프로젝트](https://github.com/HanGyeolee/Editorial)에서 확인할 수 있습니다.
+radiobutton 및 checkbox customizing 은 [이전 프로젝트](https://github.com/HanGyeolee/Editorial#radio-and-checkbox-customize)에서 확인할 수 있습니다.
 
-## [Generic](https://github.com/HanGyeolee/Phantom/tree/main/src/pages/Generic)
+## [Generic](https://github.com/HanGyeolee/Phantom/tree/main/src/pages/Generic/index.js)
 Generic 페이지는 평범하게 게시글을 작성했을 때의 예시를 위한 페이지입니다.     
 정말 단순하게도 이미 Main.css 에 모든 태그의 형식을 지정해둔 후 라면 게시글 작성하듯이 시간이 채 걸리지 않을 것 입니다.
 # run.bat
