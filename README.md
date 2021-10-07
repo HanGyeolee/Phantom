@@ -8,9 +8,9 @@
 이는 다른 프로젝트에서 손쉽게 불러와서 프로젝트의 기반을 빠르게 시작하기 위함입니다.    
 
 # [Pages](https://github.com/HanGyeolee/Phantom/tree/main/src/pages)
-* [Main](## Main)
-* [Element](## Element)
-* [Generic](## Generic)
+* [Main](##Main)
+* [Element](##Element)
+* [Generic](##Generic)
 아예 한 폴더를 기준으로 페이지를 구성하였습니다.    
 그래서 각 페이지가 작동될 때에 각 폴더의 index.js가 호출되며 화면을 구성합니다.
 
