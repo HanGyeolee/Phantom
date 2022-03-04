@@ -81,7 +81,7 @@ const App = () => {
       <Header toggleMenu={toggleMenu} />
       <SideMenu closeMenu={closeMenu}  menuActive={menu ? 'active' : null} />
       
-      <Route exact path="/" component={Main}/>
+      <Route exact path="/Phantom" component={Main}/>
       <Route exact path="/Generic" component={Generic}/>
       <Route exact path="/Element" component={Element}/>
       <Footer />

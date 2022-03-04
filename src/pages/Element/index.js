@@ -27,7 +27,7 @@ export const Element = () => {
                 and this is <sub>subscript</sub>text.
                 This is <u>underlined</u>
                 and this is code: <code>for(;;) &#123;...&#125;</code>.
-                Finally, <a href="/">this is a link</a>.
+                Finally, <a href="/Phantom">this is a link</a>.
                 </p>
                 <hr></hr>
                 <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
