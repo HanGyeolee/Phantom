@@ -31,7 +31,7 @@ export const SideMenu = (props) => {
                 <h2>MENU</h2>
                 <ul className="alt">
                     <li>
-                        <a onClick={() => {props.closeMenu(); Click("/");}} className="none">Home</a>
+                        <a onClick={() => {props.closeMenu(); Click("/Phantom");}} className="none">Home</a>
                     </li>
                     <li>
                         <a onClick={() => {props.closeMenu(); Click("/Generic");}} className="none">Ipsum veroeros</a>
