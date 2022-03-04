@@ -33,18 +33,18 @@ export const Main = () => {
             <p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p>
             <article>
                 <ul className="horizontal flex fit">
-                    <li><ImgAnime href="/Generic" alt="1" src=".Phantom/img/pic01.jpg" title="MAGNA" colorstyle="style1">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
-                    <li><ImgAnime href="/Generic" alt="2" src=".Phantom/img/pic02.jpg" title="MAGNA" colorstyle="style2">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
-                    <li><ImgAnime href="/Generic" alt="3" src=".Phantom/img/pic03.jpg" title="MAGNA" colorstyle="style3">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
-                    <li><ImgAnime href="/Generic" alt="4" src=".Phantom/img/pic04.jpg" title="MAGNA" colorstyle="style4">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
-                    <li><ImgAnime href="/Generic" alt="5" src=".Phantom/img/pic05.jpg" title="MAGNA" colorstyle="style5">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
-                    <li><ImgAnime href="/Generic" alt="6" src=".Phantom/img/pic06.jpg" title="MAGNA" colorstyle="style6">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
-                    <li><ImgAnime href="/Generic" alt="7" src=".Phantom/img/pic07.jpg" title="MAGNA" colorstyle="style2">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
-                    <li><ImgAnime href="/Generic" alt="8" src=".Phantom/img/pic08.jpg" title="MAGNA" colorstyle="style3">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
-                    <li><ImgAnime href="/Generic" alt="9" src=".Phantom/img/pic09.jpg" title="MAGNA" colorstyle="style1">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
-                    <li><ImgAnime href="/Generic" alt="10" src=".Phantom/img/pic10.jpg" title="MAGNA" colorstyle="style5">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
-                    <li><ImgAnime href="/Generic" alt="11" src=".Phantom/img/pic11.jpg" title="MAGNA" colorstyle="style6">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
-                    <li><ImgAnime href="/Generic" alt="12" src=".Phantom/img/pic12.jpg" title="MAGNA" colorstyle="style4">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
+                    <li><ImgAnime href="/Generic" alt="1" src="https://hangyeolee.github.io/Phantom/img/pic01.jpg" title="MAGNA" colorstyle="style1">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
+                    <li><ImgAnime href="/Generic" alt="2" src="https://hangyeolee.github.io/Phantom/img/pic02.jpg" title="MAGNA" colorstyle="style2">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
+                    <li><ImgAnime href="/Generic" alt="3" src="https://hangyeolee.github.io/Phantom/img/pic03.jpg" title="MAGNA" colorstyle="style3">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
+                    <li><ImgAnime href="/Generic" alt="4" src="https://hangyeolee.github.io/Phantom/img/pic04.jpg" title="MAGNA" colorstyle="style4">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
+                    <li><ImgAnime href="/Generic" alt="5" src="https://hangyeolee.github.io/Phantom/img/pic05.jpg" title="MAGNA" colorstyle="style5">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
+                    <li><ImgAnime href="/Generic" alt="6" src="https://hangyeolee.github.io/Phantom/img/pic06.jpg" title="MAGNA" colorstyle="style6">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
+                    <li><ImgAnime href="/Generic" alt="7" src="https://hangyeolee.github.io/Phantom/img/pic07.jpg" title="MAGNA" colorstyle="style2">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
+                    <li><ImgAnime href="/Generic" alt="8" src="https://hangyeolee.github.io/Phantom/img/pic08.jpg" title="MAGNA" colorstyle="style3">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
+                    <li><ImgAnime href="/Generic" alt="9" src="https://hangyeolee.github.io/Phantom/img/pic09.jpg" title="MAGNA" colorstyle="style1">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
+                    <li><ImgAnime href="/Generic" alt="10" src="https://hangyeolee.github.io/Phantom/img/pic10.jpg" title="MAGNA" colorstyle="style5">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
+                    <li><ImgAnime href="/Generic" alt="11" src="https://hangyeolee.github.io/Phantom/img/pic11.jpg" title="MAGNA" colorstyle="style6">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
+                    <li><ImgAnime href="/Generic" alt="12" src="https://hangyeolee.github.io/Phantom/img/pic12.jpg" title="MAGNA" colorstyle="style4">Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</ImgAnime></li>
                 </ul>
             </article>
         </section>

@@ -334,39 +334,39 @@ export const Element = () => {
                 <h2>IMAGE</h2>
                 <h3>FIT</h3>
                 <div className="fit">
-                    <img src="./img/pic13.jpg" alt="mounatin"></img>
+                    <img src="https://hangyeolee.github.io/Phantom/img/pic13.jpg" alt="mounatin"></img>
                 </div>
                 <ul className="alt_no">
                     <li>
                         <ul className="horizontal fit">
-                            <li><img src="./img/pic01.jpg" alt="laptop"></img></li>
-                            <li><img src="./img/pic02.jpg" alt="wave"></img></li>
-                            <li><img src="./img/pic03.jpg" alt="stairs"></img></li>
+                            <li><img src="https://hangyeolee.github.io/Phantom/img/pic01.jpg" alt="laptop"></img></li>
+                            <li><img src="https://hangyeolee.github.io/Phantom/img/pic02.jpg" alt="wave"></img></li>
+                            <li><img src="https://hangyeolee.github.io/Phantom/img/pic03.jpg" alt="stairs"></img></li>
                         </ul>
                     </li>
                     <li>
                         <ul className="horizontal fit">
-                            <li><img src="./img/pic03.jpg" alt="stairs"></img></li>
-                            <li><img src="./img/pic01.jpg" alt="laptop"></img></li>
-                            <li><img src="./img/pic02.jpg" alt="wave"></img></li>
+                            <li><img src="https://hangyeolee.github.io/Phantom/img/pic03.jpg" alt="stairs"></img></li>
+                            <li><img src="https://hangyeolee.github.io/Phantom/img/pic01.jpg" alt="laptop"></img></li>
+                            <li><img src="https://hangyeolee.github.io/Phantom/img/pic02.jpg" alt="wave"></img></li>
                         </ul>
                     </li>
                     <li>
                         <ul className="horizontal fit">
-                            <li><img src="./img/pic02.jpg" alt="wave"></img></li>
-                            <li><img src="./img/pic03.jpg" alt="stairs"></img></li>
-                            <li><img src="./img/pic01.jpg" alt="laptop"></img></li>
+                            <li><img src="https://hangyeolee.github.io/Phantom/img/pic02.jpg" alt="wave"></img></li>
+                            <li><img src="https://hangyeolee.github.io/Phantom/img/pic03.jpg" alt="stairs"></img></li>
+                            <li><img src="https://hangyeolee.github.io/Phantom/img/pic01.jpg" alt="laptop"></img></li>
                         </ul>
                     </li>
                 </ul>
                 <h3>LEFT &amp; RIGHT</h3>
                 <div className="flex">
                     <p className="left">
-                        <img src="./img/pic01.jpg" alt="laptop"></img>
+                        <img src="https://hangyeolee.github.io/Phantom/img/pic01.jpg" alt="laptop"></img>
                         Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
                     </p>
                     <p className="right">
-                        <img  src="./img/pic02.jpg" alt="wave"></img>
+                        <img  src="https://hangyeolee.github.io/Phantom/img/pic02.jpg" alt="wave"></img>
                         Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
                     </p>
                 </div>

@@ -6,7 +6,7 @@ export const Generic = () => {
             <h1>Generic Page</h1>
             <article>
                 <div className="fit">
-                    <img src="./img/pic13.jpg" alt="mounatin"></img>
+                    <img src="https://hangyeolee.github.io/Phantom/img/pic13.jpg" alt="mounatin"></img>
                 </div>
             </article>
             <hr className="blank"/>
