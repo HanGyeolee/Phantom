@@ -11,7 +11,7 @@ function Header(props){
   const history = useHistory();
 
   const Move = () => {
-      history.push("/");
+      history.push("/Phantom");
   }
 
   return(
@@ -59,8 +59,8 @@ function Footer(){
       <section>
         <ul className="horizontal alt">
           <li><p>© Untitled. All rights reserved</p></li>
-          <li><p>Design:&nbsp;<a href="/">HTML5 UP</a></p></li>
-          <li><p>Demo Images:&nbsp;<a href="/">Unsplash</a></p></li>
+          <li><p>Design:&nbsp;<a href="/Phantom">HTML5 UP</a></p></li>
+          <li><p>Demo Images:&nbsp;<a href="/Phantom">Unsplash</a></p></li>
         </ul>
       </section>
     </footer>
