@@ -140,9 +140,6 @@ ul.horizontal>li{
     padding: 0.5rem 1.5rem 0.5rem 0rem;
     list-style: none;
 }
-ul.horizontal>li:last-child{
-    padding-right: 0rem;
-}
 ul.horizontal.alt{
     transform: translateX(-12.5%) scale(0.75);
 }
